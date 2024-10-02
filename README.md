@@ -28,21 +28,42 @@ Este projeto é uma calculadora científica escrita em Pascal. A calculadora ofe
    - Valida condições específicas, como evitar divisão por zero e números negativos para logaritmo.
 
 ## COMO USAR?
-1. **Execução do Programa**:
-   - Compile e execute o programa em um ambiente que suporte Pascal, como o Free Pascal Compiler (FPC).
+1. **Compilar o código**:
+   - Navegue até o diretório `./CODIGO`, e digite o seguinte comando para compilar o código:
 
-2. **Menu de Entrada**:
+   ```bash
+   fpc main.pas
+   ```
+
+   - Isso vai gerar um arquivo executável:
+      - **Windows**: `main.exe`
+      - **Linux/macOS**: `main` (sem extensão).
+
+2. **Executar o arquivo compilado**:
+   - Depois de compilar o código, você pode executar o arquivo compilado diretamente no terminal:
+   
+   - **Windows**:
+   ```bash
+   main.exe
+   ```
+
+   - **Linux/macOS**:
+   ```bash
+   ./main
+   ```
+
+3. **Menu de Entrada**:
    - Ao iniciar o programa, um menu é exibido com as opções disponíveis.
    - O usuário escolhe uma das opções digitando o número correspondente e pressionando Enter.
 
-3. **Entrada de Dados**:
+4. **Entrada de Dados**:
    - Para cada operação, o programa solicita os dados necessários (números ou ângulos) e valida as entradas.
    - Se uma entrada inválida for fornecida, o programa exibirá uma mensagem de erro e solicitará a entrada novamente.
 
-4. **Cálculo e Resultado**:
+5. **Cálculo e Resultado**:
    - O programa realiza o cálculo correspondente e exibe o resultado no console.
 
-5. **Repetição ou Encerramento**:
+6. **Repetição ou Encerramento**:
    - Após exibir o resultado, o programa retorna ao menu principal, permitindo ao usuário realizar novas operações.
    - O usuário pode encerrar o programa escolhendo a opção "Sair".
 
